@@ -136,6 +136,8 @@ valor2 = any(lista1) # Devuelve True si al menos un elemento es "verdadero".
 
 nuevaLista = lista1+lista2 #NO MODIFICA Crea una nueva lista concatenando l1 y l2.
 
+lista1.clear() #limpia la lista
+
 lista1.append('dato') # Añade dato al final de lista.
 
 lista1.extend(lista2) # Añade los datos al final SI MODIFICA.
